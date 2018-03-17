@@ -75,13 +75,16 @@ header{
   border-bottom: 1px solid grey;
 }
 nav a{
-  padding: 0 10px 0 5px;
+  padding: 0 10px 0 10px;
   font-size: 15px;
   font-family: 'Open Sans';
 }
 /*
   ***HOME PAGE***
 */
+.heading{
+  padding: 30px;
+}
 .blogImage{
   width: fit-content;
   text-align: center;
