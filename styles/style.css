@@ -1,0 +1,207 @@
+/*
+  ***UNIVERSAL STYLES***
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+  font-size: 14px;
+  color: rgb(60,60,60);
+  font-family: 'Poppins';
+}
+img {
+  max-width : 100%;
+  height: auto;
+}
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  font-size: 1rem;
+}
+hr {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 3.5rem;
+  margin: 1rem 0;
+}
+hr.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+ul{
+  list-style-type: none;
+}
+h2{
+  font-size: 2.7rem;
+  font-weight: 400;
+}
+h3{
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+h4{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+h5{
+  font-size: 1rem;
+}
+/*
+  ***HELPERS***
+*/
+.centerText{
+  text-align: center;
+}
+.rightText{
+  text-align: right;
+}
+.padding{
+  padding: 3%;
+}
+.bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*
+*** HEADER ***
+*/
+header{
+  padding: 1.2%;
+}
+nav a{
+  padding: 0 10px 0 10px;
+  font-size: 15px;
+  font-family: 'Open Sans';
+}
+/*
+  ***HOME PAGE***
+*/
+.blogImage{
+  width: fit-content;
+  text-align: center;
+}
+.bgPosts{
+  min-height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*
+  ***ABOUT PAGE***
+*/
+
+/*
+  ***WHAT WE DO PAGE***
+*/
+
+/*
+*** PROPERTIES ***
+*/
+.singleProperty{
+  min-height: 75vh;
+  padding: 2%;
+}
+/*
+*** 1031 EXCHANGE ***
+*/
+
+/*
+  ***CONTACT PAGE***
+*/
+
+/*
+  ***FOOTER***
+*/
+footer{
+  background-color: grey;
+  min-height: 40vh;
+}
+/*
+hamburger menu
+*/
+.hamburger-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+		background-color:rgb(240, 232, 220);
+    padding:3% 3% 10% 3%;
+		width: 465px;
+		text-align:center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 99999999;
+}
+.hamburger-menu a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 300;
+	color:black;
+	font-family: 'Lato', sans-serif;
+  display:block;
+  padding:8px 15px;
+  white-space:nowrap;
+}
+.hamburger-menu a:hover{
+	color:black;
+}
+a.smallMenu {
+	font-size: 25px;
+	font-weight: lighter;
+}
+.hamburger-menu li{list-style:none}
+.hamburger-button {
+  position:fixed;
+  top: 2vh;
+  right: 2vh;
+  z-index: 9999999999;
+  padding: 12px;
+}
+.hamburger-button span{
+  width: 50px;
+  border: 2px solid black;
+  background-color: black;
+  display: block;
+  border-radius: 22px;
+  transition: 2s;
+}
+.hamburger-top, .hamburger-bottom{
+  position: absolute;
+}
+.hamburger-top{
+  top: 02px;
+}
+.hamburger-bottom{
+  bottom: 02.5px;
+}
+.active .hamburger-top{
+   transform: rotateZ(45deg);
+  top:12px;
+  border-color:black;
+}
+.active .hamburger-bottom{
+   transform: rotateZ(-45deg);
+  bottom:12px;
+  border-color:black;
+}
+.active .hamburger-middle{
+  opacity:0;
+}
+/*
+  *** MEDIA QUERIES ***
+*/
+@media all and (min-width:640px){
+  .hamburger{
+    display:none;
+  }
+}
+@media all and (max-width:640px){
+  .mainNav{
+    display: none;
+  }
+}
