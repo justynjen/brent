@@ -71,10 +71,11 @@ h5{
 *** HEADER ***
 */
 header{
-  padding: 1.2%;
+  padding: 1%;
+  border-bottom: 1px solid grey;
 }
 nav a{
-  padding: 0 10px 0 10px;
+  padding: 0 10px 0 5px;
   font-size: 15px;
   font-family: 'Open Sans';
 }
