@@ -34,6 +34,11 @@ hr.center {
 }
 ul{
   list-style-type: none;
+  line-height: 28px;
+}
+ol{
+  list-style-type: none;
+  line-height: 28px;
 }
 h2{
   font-size: 2.7rem;
@@ -58,6 +63,9 @@ h5{
 }
 .rightText{
   text-align: right;
+}
+.leftText{
+  text-align: left;
 }
 .padding{
   padding: 3%;
